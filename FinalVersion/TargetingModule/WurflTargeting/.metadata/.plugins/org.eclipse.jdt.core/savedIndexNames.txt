@@ -1,0 +1,18 @@
+INDEX VERSION 1.127+C:\work\SBannerWurfl\.metadata\.plugins\org.eclipse.jdt.core
+3938408542.index
+893988391.index
+1765406557.index
+1420719090.index
+551513651.index
+3164457182.index
+1308193551.index
+669170830.index
+3488917806.index
+1841964203.index
+2862355144.index
+4043202862.index
+1671476569.index
+251575643.index
+1505972308.index
+3766508064.index
+21156131.index

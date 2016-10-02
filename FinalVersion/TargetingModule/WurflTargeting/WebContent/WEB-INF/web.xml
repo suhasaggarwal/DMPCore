@@ -1,0 +1,61 @@
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/wurfl-default-ctx.xml</param-value>
+	</context-param>
+
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+
+	
+
+        <servlet>
+        <servlet-name>Controller</servlet-name>
+        <servlet-class>Controller</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Controller</servlet-name>
+        <url-pattern>/Controller</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AdTracking</servlet-name>
+        <servlet-class>AdTracking</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdTracking</servlet-name>
+        <url-pattern>/AdTracking</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ContextRefresh</servlet-name>
+        <servlet-class>ContextRefresh</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextRefresh</servlet-name>
+        <url-pattern>/ContextRefresh</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description/>
+        <display-name>GeoInfo</display-name>
+        <servlet-name>GeoInfo</servlet-name>
+        <servlet-class>GeoInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GeoInfo</servlet-name>
+        <url-pattern>/GeoInfo</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+
+
+
+
+</web-app>

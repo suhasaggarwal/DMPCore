@@ -1,0 +1,56 @@
+
+import java.io.IOException;
+import java.io.PrintWriter;
+ 
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import net.sourceforge.wurfl.core.CapabilityNotDefinedException;
+import net.sourceforge.wurfl.core.Device;
+import net.sourceforge.wurfl.core.MarkUp;
+import net.sourceforge.wurfl.core.WURFLHolder;
+import net.sourceforge.wurfl.core.WURFLManager;
+ 
+public class DeviceIdentification extends HttpServlet {
+ 
+private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+ 
+    	PrintWriter out = response.getWriter();
+        WURFLHolder wurflHolder = (WURFLHolder) getServletContext().getAttribute("net.sourceforge.wurfl.core.WURFLHolder");
+        WURFLManager wurfl = wurflHolder.getWURFLManager();
+        Device device = wurfl.getDeviceForRequest(request);
+ 
+        MarkUp deviceMarkUp = device.getMarkUp();
+ 
+        String markup = null;
+ 
+        if (deviceMarkUp.XHTML_ADVANCED.equals(deviceMarkUp)) {
+            markup = "xhtml_advanced";
+        } else if (deviceMarkUp.XHTML_SIMPLE.equals(deviceMarkUp)) {
+            markup = "xhtml_simple";
+        } else if (deviceMarkUp.CHTML.equals(deviceMarkUp)) {
+            markup = "chtml";
+        } else if (deviceMarkUp.WML.equals(deviceMarkUp)) {
+            markup = "wml";
+        }
+ 
+        String brandName = "";
+    	try {
+    		brandName = device.getCapability("brand_name");
+    	} catch (CapabilityNotDefinedException e) {
+    		throw new RuntimeException("Somethingh is seriously wrong with your WURFL:" + e.getLocalizedMessage(), e);
+    	}
+ 
+    	out.println("Brand Name : " + brandName);
+    	out.println("Mark Up : " + markup);
+    }
+ 
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    	processRequest(request, response);
+    }
+ 
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    	processRequest(request, response);
+    }
+}

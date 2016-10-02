@@ -1,0 +1,34 @@
+import java.util.List;
+
+import org.dbpedia.spotlight.model.DBpediaResource;
+
+
+
+
+public class startAnnonation {
+    public static void main(String[] args) throws Exception {
+     //   String question = "What is the winning chances of BJP in New Delhi elections?";
+        String question = "india-call-up-harbhajan-as-cover-for-injured-ashwin";
+        db c = new db ();
+        c.configiration(0.25,20);
+        //, 0, "non", "AtLeastOneNounSelector", "Default", "yes");
+        c.evaluate(question);
+        System.out.println("resource : "+c.getResu());
+        SparqlQueryExecuter e = new SparqlQueryExecuter("http://dbpedia.org", "http://dbpedia.org/sparql");
+        String example1 = "select ?subject {dbpedia:Harbhajan_Singh dcterms:subject?subject}";
+        String example2 = "select ?o where ?s ?p ?o {dbpedia:Harbhajan_Singh a dbo:?o}";
+        String example3 = "PREFIX dbres: <http://dbpedia.org/resource/>"+
+        	"PREFIX rdf:<http://www.w3.org/1/02/22-rdf-syntax-ns#>"+
+        		"select ?o where {dbres:Basketball rdf:type ?o} LIMIT 10";
+       
+        String example4 = "PREFIX  dbres: <http://dbpedia.org/resource/>"+"\n"+
+        	              "PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"+"\n"+"\n"+
+        		          "SELECT ?o"+"\n"+
+        		          "WHERE"+"\n"+"\t"+
+        		            "{ dbres:Basketball rdf:type ?o}"+"\n"+
+        		           "LIMIT 10";
+        List<DBpediaResource> uris = e.query(example4);
+        System.out.println(uris);
+    
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context crossContext="true" debug="5" docBase="SBanner" path="/SBanner" reloadable="true">
+  <Resource auth="Container" autoReconnect="true" driverClassName="com.mysql.jdbc.Driver" logAbandoned="false" maxActive="900" maxIdle="100" maxWait="-1" minIdle="0" name="jdbc/eros" password="root_#$20152015" removeAbandoned="true" removeAbandonedTimeout="120" testWhileIdle="false" type="javax.sql.DataSource" url="jdbc:mysql://54.175.97.130:3306/lyxel_AD_Server" username="root_user"/>
+</Context>
+<!--
+<Context crossContext="true" debug="5" docBase="SBanner" path="/SBanner" reloadable="true">
+  <Resource auth="Container" autoReconnect="true" driverClassName="com.mysql.jdbc.Driver" logAbandoned="false" maxActive="900" maxIdle="100" maxWait="-1" minIdle="0" name="jdbc/eros" password="q1w2e3r4t5y6" removeAbandoned="true" removeAbandonedTimeout="120" testWhileIdle="false" type="javax.sql.DataSource" url="jdbc:mysql://127.0.0.1:3306/lyxel_AD_Server" username="root"/>
+</Context>
+-->

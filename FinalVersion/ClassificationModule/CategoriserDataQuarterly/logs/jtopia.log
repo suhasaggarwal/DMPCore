@@ -1,0 +1,129 @@
+2016-03-28 00:17:36 plugins [INFO] [Techno] loaded [shield], sites []
+2016-03-28 00:17:36 transport [INFO] [Techno] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:17:36 transport [INFO] [Techno] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:18:52 plugins [INFO] [Titania] loaded [shield], sites []
+2016-03-28 00:18:53 transport [INFO] [Titania] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:18:53 transport [INFO] [Titania] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:19:03 plugins [INFO] [Sekhmet] loaded [shield], sites []
+2016-03-28 00:19:04 transport [INFO] [Sekhmet] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:19:04 transport [INFO] [Sekhmet] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:23:26 plugins [INFO] [Zarathos] loaded [shield], sites []
+2016-03-28 00:23:26 transport [INFO] [Zarathos] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:23:26 transport [INFO] [Zarathos] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:23:40 plugins [INFO] [Omen] loaded [shield], sites []
+2016-03-28 00:23:40 transport [INFO] [Omen] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:23:40 transport [INFO] [Omen] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:28:04 plugins [INFO] [Skywalker] loaded [shield], sites []
+2016-03-28 00:28:04 transport [INFO] [Skywalker] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:28:04 transport [INFO] [Skywalker] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:28:06 TermsExtractor [INFO] Using English Lexicon POS tagger..
+2016-03-28 00:28:06 DefaultTagger [ERROR] java.io.FileNotFoundException: model\default\english-lexicon.txt (The system cannot find the path specified)
+java.io.FileNotFoundException: model\default\english-lexicon.txt (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at com.sree.textbytes.jtopia.tagger.LexiconTagger.initialize(LexiconTagger.java:35)
+	at com.sree.textbytes.jtopia.TermsExtractor.performTermExtraction(TermsExtractor.java:37)
+	at com.sree.textbytes.jtopia.TermsExtractor.extractTerms(TermsExtractor.java:21)
+	at com.spidio.UserSegmenter.UserProfileSegmenter7.main(UserProfileSegmenter7.java:179)
+2016-03-28 00:30:28 plugins [INFO] [Nth Man] loaded [shield], sites []
+2016-03-28 00:30:28 transport [INFO] [Nth Man] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:30:28 transport [INFO] [Nth Man] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:30:46 TermsExtractor [INFO] Using English Lexicon POS tagger..
+2016-03-28 00:30:46 DefaultTagger [ERROR] java.io.FileNotFoundException: model\default\english-lexicon.txt (The system cannot find the path specified)
+java.io.FileNotFoundException: model\default\english-lexicon.txt (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at com.sree.textbytes.jtopia.tagger.LexiconTagger.initialize(LexiconTagger.java:35)
+	at com.sree.textbytes.jtopia.TermsExtractor.performTermExtraction(TermsExtractor.java:37)
+	at com.sree.textbytes.jtopia.TermsExtractor.extractTerms(TermsExtractor.java:21)
+	at com.spidio.UserSegmenter.UserProfileSegmenter7.main(UserProfileSegmenter7.java:179)
+2016-03-28 00:34:01 plugins [INFO] [Baron Brimstone] loaded [shield], sites []
+2016-03-28 00:34:02 transport [INFO] [Baron Brimstone] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:34:02 transport [INFO] [Baron Brimstone] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:34:08 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 00:36:39 plugins [INFO] [Lupa] loaded [shield], sites []
+2016-03-28 00:36:39 transport [INFO] [Lupa] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:36:39 transport [INFO] [Lupa] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:36:41 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 00:38:12 plugins [INFO] [Bandit] loaded [shield], sites []
+2016-03-28 00:38:12 transport [INFO] [Bandit] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:38:12 transport [INFO] [Bandit] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:38:14 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 00:38:32 plugins [INFO] [Sean Cassidy] loaded [shield], sites []
+2016-03-28 00:38:32 transport [INFO] [Sean Cassidy] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:38:32 transport [INFO] [Sean Cassidy] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:38:34 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 00:40:54 plugins [INFO] [Tommy Lightning] loaded [shield], sites []
+2016-03-28 00:40:54 transport [INFO] [Tommy Lightning] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:40:54 transport [INFO] [Tommy Lightning] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:40:56 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 00:42:05 plugins [INFO] [Strobe] loaded [shield], sites []
+2016-03-28 00:42:06 transport [INFO] [Strobe] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:42:06 transport [INFO] [Strobe] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:42:07 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 00:43:49 plugins [INFO] [Lockheed] loaded [shield], sites []
+2016-03-28 00:43:50 transport [INFO] [Lockheed] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:43:50 transport [INFO] [Lockheed] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:43:51 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 00:51:53 plugins [INFO] [Pietro Maximoff] loaded [shield], sites []
+2016-03-28 00:51:54 transport [INFO] [Pietro Maximoff] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:51:54 transport [INFO] [Pietro Maximoff] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:51:55 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 00:53:52 plugins [INFO] [Matador] loaded [shield], sites []
+2016-03-28 00:53:52 transport [INFO] [Matador] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 00:53:52 transport [INFO] [Matador] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 00:53:53 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 01:01:35 plugins [INFO] [Carnage] loaded [shield], sites []
+2016-03-28 01:01:35 transport [INFO] [Carnage] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 01:01:35 transport [INFO] [Carnage] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 01:01:36 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 01:02:58 plugins [INFO] [Tailhook] loaded [shield], sites []
+2016-03-28 01:02:59 transport [INFO] [Tailhook] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 01:02:59 transport [INFO] [Tailhook] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 01:03:00 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 01:08:19 plugins [INFO] [Brain-Child] loaded [shield], sites []
+2016-03-28 01:08:20 transport [INFO] [Brain-Child] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 01:08:20 transport [INFO] [Brain-Child] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 01:08:22 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 01:11:13 plugins [INFO] [Carl "Crusher" Creel] loaded [shield], sites []
+2016-03-28 01:11:13 transport [INFO] [Carl "Crusher" Creel] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 01:11:13 transport [INFO] [Carl "Crusher" Creel] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 01:11:15 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 01:21:32 plugins [INFO] [Marrina Smallwood] loaded [shield], sites []
+2016-03-28 01:21:33 transport [INFO] [Marrina Smallwood] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 01:21:33 transport [INFO] [Marrina Smallwood] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 01:21:35 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 01:21:44 plugins [INFO] [Leir] loaded [shield], sites []
+2016-03-28 01:21:45 transport [INFO] [Leir] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 01:21:45 transport [INFO] [Leir] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 01:21:47 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 01:22:15 plugins [INFO] [Mephisto] loaded [shield], sites []
+2016-03-28 01:22:15 transport [INFO] [Mephisto] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 01:22:15 transport [INFO] [Mephisto] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 01:22:18 TermsExtractor [INFO] Using openNLP POS tagger..
+2016-03-28 16:23:49 plugins [INFO] [Namor McKenzie] loaded [shield], sites []
+2016-03-28 16:23:49 transport [INFO] [Namor McKenzie] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 16:23:49 transport [INFO] [Namor McKenzie] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 16:27:13 plugins [INFO] [Timeslip] loaded [shield], sites []
+2016-03-28 16:27:13 transport [INFO] [Timeslip] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 16:27:13 transport [INFO] [Timeslip] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 16:31:48 plugins [INFO] [Morg] loaded [shield], sites []
+2016-03-28 16:31:49 transport [INFO] [Morg] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 16:31:49 transport [INFO] [Morg] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 16:41:12 plugins [INFO] [Shang-Chi] loaded [shield], sites []
+2016-03-28 16:41:12 transport [INFO] [Shang-Chi] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 16:41:12 transport [INFO] [Shang-Chi] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 16:48:20 plugins [INFO] [Conrad Josten] loaded [shield], sites []
+2016-03-28 16:48:20 transport [INFO] [Conrad Josten] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 16:48:20 transport [INFO] [Conrad Josten] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 16:54:06 plugins [INFO] [Micro] loaded [shield], sites []
+2016-03-28 16:54:06 transport [INFO] [Micro] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 16:54:06 transport [INFO] [Micro] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 17:01:02 plugins [INFO] [Morpheus] loaded [shield], sites []
+2016-03-28 17:01:02 transport [INFO] [Morpheus] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 17:01:02 transport [INFO] [Morpheus] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-28 17:07:41 plugins [INFO] [Commander Kraken] loaded [shield], sites []
+2016-03-28 17:07:42 transport [INFO] [Commander Kraken] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-28 17:07:42 transport [INFO] [Commander Kraken] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]

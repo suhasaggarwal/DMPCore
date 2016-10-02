@@ -1,0 +1,6 @@
+2016-03-27 22:16:58 plugins [INFO] [Jamal Afari] loaded [shield], sites []
+2016-03-27 22:16:58 transport [INFO] [Jamal Afari] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-27 22:16:58 transport [INFO] [Jamal Afari] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+2016-03-27 22:17:17 plugins [INFO] [Asteroth] loaded [shield], sites []
+2016-03-27 22:17:18 transport [INFO] [Asteroth] Using [org.elasticsearch.shield.transport.ShieldClientTransportService] as transport service, overridden by [shield]
+2016-03-27 22:17:18 transport [INFO] [Asteroth] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
